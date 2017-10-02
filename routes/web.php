@@ -59,7 +59,7 @@ Route::get('/flight', function () {
         return false;
     });
 
-   var_dump($trips)
+   var_dump($trips);
 
 /*
 foreach ($trips as $trip) {
