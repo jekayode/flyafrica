@@ -51,8 +51,9 @@ class FlightController extends Controller
 	        return false;
 	    });
 
-	   return view('flights', compact('trips'));
-	   //return view()
+	   $result = json_encode($trips);
+
+	   return $result;
     }
 }
 
